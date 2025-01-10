@@ -3,6 +3,8 @@ def function_print(name):
     print(f"Hello {name}")
 
 
-function_print("John")
-function_print("Rob")
+function_print("John") #positional argument used
+
 #function_print() - missing argument
+
+function_print(name="Rob") #keyword argument used
